@@ -1,0 +1,22 @@
+[
+  {
+    "timestamp": "Wed Nov 23 2022",
+    "nombre": "Producto Prueba adicional",
+    "descripcion": "descripción del nuevo producto",
+    "codigo": 444,
+    "thumbnail": "url2",
+    "precio": 123,
+    "stock": 33,
+    "id": 2
+  },
+  {
+    "timestamp": "Wed Nov 23 2022",
+    "nombre": "Producto Prueba",
+    "descripcion": "descripción del nuevo producto",
+    "codigo": 222,
+    "thumbnail": "url1",
+    "precio": 12,
+    "stock": 23,
+    "id": 3
+  }
+]
