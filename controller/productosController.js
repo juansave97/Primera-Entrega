@@ -1,7 +1,6 @@
 const CrudProductos = require(`../dataBase/crudProductos`);
 
 let myCrudProductos = new CrudProductos(`./database/productos.txt`);
-let administrator = true;
 
 const getAllProducts = async (req, res) => {
     try {
@@ -32,6 +31,8 @@ const getProductById = async (req, res) => {
 }
 
 const addProduct = async (req, res) => {
+    let administrator = req.query.isAdmin === 'true'
+
     if (administrator) {
         try {
             const name = req.body.nombre;
@@ -67,6 +68,9 @@ const addProduct = async (req, res) => {
 }
 
 const updateProductById = async (req, res) => {
+    let administrator = req.query.isAdmin === 'true'
+    console.log("query params", JSON.parse(req.query.isAdmin));
+    
     if (administrator) {
         try {
             const id = Number(req.params.id);
@@ -110,6 +114,9 @@ const updateProductById = async (req, res) => {
 }
 
 const deleteProductById = async (req, res) => {
+    let administrator = req.query.isAdmin === 'true'
+    console.log("query params", JSON.parse(req.query.isAdmin));
+
     if (administrator) {
         try {
             const id = Number(req.params.id);

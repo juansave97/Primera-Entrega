@@ -18,5 +18,55 @@
     "precio": 12,
     "stock": 23,
     "id": 3
+  },
+  {
+    "timestamp": "Thu Nov 24 2022",
+    "nombre": "Producto 222",
+    "descripcion": "descripción del nuevo producto",
+    "codigo": 124,
+    "thumbnail": "url1222",
+    "precio": 22,
+    "stock": 3234,
+    "id": 4
+  },
+  {
+    "timestamp": "Fri Nov 25 2022",
+    "nombre": "Producto 222",
+    "descripcion": "descripción del nuevo producto",
+    "codigo": 124,
+    "thumbnail": "url1222",
+    "precio": 22,
+    "stock": 3234,
+    "id": 5
+  },
+  {
+    "timestamp": "Fri Nov 25 2022",
+    "nombre": "Producto prueba rol",
+    "descripcion": "descripción del nuevo producto",
+    "codigo": 132,
+    "thumbnail": "url234",
+    "precio": 234,
+    "stock": 20,
+    "id": 6
+  },
+  {
+    "timestamp": "Fri Nov 25 2022",
+    "nombre": "Producto prueba rol 2",
+    "descripcion": "descripción del nuevo producto",
+    "codigo": 234,
+    "thumbnail": "ur345",
+    "precio": 443,
+    "stock": 23,
+    "id": 7
+  },
+  {
+    "timestamp": "Fri Nov 25 2022",
+    "nombre": "Producto prueba rol 2",
+    "descripcion": "descripción del nuevo producto",
+    "codigo": 234,
+    "thumbnail": "ur345",
+    "precio": 443,
+    "stock": 23,
+    "id": 8
   }
 ]
